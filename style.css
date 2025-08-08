@@ -1,0 +1,54 @@
+body {
+    font-family: sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    margin: 0;
+    background-color: #f0f0f0;
+    color: #333;
+}
+
+.container {
+    text-align: center;
+    padding: 2rem;
+    border-radius: 10px;
+    background-color: #fff;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+    color: #4a4a4a;
+}
+
+p {
+    font-size: 1.5rem;
+    margin: 1.5rem 0;
+}
+
+.botoes button {
+    padding: 10px 20px;
+    margin: 0 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1rem;
+    color: #fff;
+    transition: background-color 0.3s ease;
+}
+
+#btn-clique {
+    background-color: #007bff;
+}
+
+#btn-clique:hover {
+    background-color: #0056b3;
+}
+
+#btn-reset {
+    background-color: #dc3545;
+}
+
+#btn-reset:hover {
+    background-color: #c82333;
+}
