@@ -12,7 +12,7 @@ function atualizarContador() {
 }
 
 // Adiciona um "ouvinte de evento" para o botão de clique
-btnClique.addEventListener('click', () => {
+btnClique.addEventListener('click', (1) => {
     contagem++; // Aumenta a contagem em 1
     atualizarContador();
 });
